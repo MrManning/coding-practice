@@ -1,13 +1,13 @@
 Complete the function solveMeFirst to compute the sum of two integers.
 
-## Example
+### Example
 ```
 a = 7
 b = 3
 Return 10
 ```
 
-## Function Description
+### Function Description
 
 Complete the solveMeFirst function in the editor below.
 
@@ -18,17 +18,17 @@ solveMeFirst has the following parameters:
 Returns
 - int: the sum of `a` and `b` 
 
-## Constraints
+### Constraints
 `1 <= a,b <= 100`
 
-## Sample Input
+### Sample Input
 ```
 a = 2
 b = 3
 ```
 
-## Sample Output
+### Sample Output
 `5`
 
-## Explanation
+### Explanation
 `2 + 3 = 5`
