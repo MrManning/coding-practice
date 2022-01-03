@@ -1,3 +1,5 @@
+package src;
+
 import java.io.*;
 import java.util.*;
 
@@ -18,6 +20,7 @@ public class Solution {
             int sum;
             sum = solveMeFirst(a, b);
             System.out.println(sum);
+            in.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
