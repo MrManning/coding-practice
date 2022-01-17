@@ -1,6 +1,6 @@
 .vscode/
 .DS_Store
 
-scripts
-!*/scripts/grab-problem.py
+scripts/
 !*/scripts/create-challenge.sh
+!*/scripts/grab-problem.py
