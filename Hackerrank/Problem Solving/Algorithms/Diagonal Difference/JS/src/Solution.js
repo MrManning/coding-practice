@@ -34,7 +34,7 @@ function diagonalDifference(arr) {
     let primary = 0;
     let secondary = 0;
     let length = arr.length;
-        
+
     for(var i = 0; i < length; i++) {
         primary += arr[i][i];
         secondary += arr[i][length - i - 1];
