@@ -3,12 +3,12 @@ root := ../../../
 .PHONY: challenge
 challenge: ## Create new challenge dir
 ifndef NAME
-	$(error name is undefined)
+	$(error NAME is undefined)
 endif
 ifndef LANGUAGE
-	$(error language is undefined)
+	$(error LANGUAGE is undefined)
 endif
-	$(root)scripts/create-challenge.sh "$(NAME)" $(LANGUAGE)
+	$(root)scripts/create-challenge.sh "$(NAME)" $(LANGUAGE) $(URL)
 
 .PHONY: help
 help: ## Display this help screen
