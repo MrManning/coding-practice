@@ -12,9 +12,26 @@ public class Solution {
                 j = j - 1;
             }
             A[j + 1] = value;
+
+            if (!isSorted(A, i)) {
+                System.out.println("Array not sorted: " + Arrays.toString(A));
+            }
         }
 
         printArray(A);
+    }
+
+    static boolean isSorted(int[] A, int idx) {
+        if (idx == 0) {
+            return true;
+        }
+
+        for (int i = 0; i < idx; i++) {
+            if (A[i] > A[i + 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 
     static void printArray(int[] ar) {
