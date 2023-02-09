@@ -1,6 +1,3 @@
 .vscode/
 .DS_Store
-
-scripts/*
-!*/scripts/create-challenge.sh
-!*/scripts/grab-problem.py
+venv/

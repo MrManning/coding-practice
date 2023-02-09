@@ -22,6 +22,9 @@ case $language in
     "Java")
         language=java
         ;;
+    "TypeScript")
+        language=ts
+        ;;
     *)
         echo "unknown language '${language}' using default 'js'"
         language=js
